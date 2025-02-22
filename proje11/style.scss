@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Manrope", serif;
+    font-optical-sizing: auto;
+}
+.container{
+    background: #FFFFFF;
+}
+.nav-link{
+    color: #33354D;
+    &:hover{
+        color: #6366F1;
+    }
+    
+}
+.navbar-brand{
+    color: #0B0F19;
+    font-weight: 800;
+    font-size:large;
+}
+.btn-primary{
+    background-color: #5054E9;
+    border: none;
+    border-radius: 6px;
+}
+.bg-hero{
+    background: radial-gradient(circle, rgba(227,248,252,1) 0%, rgba(243,223,247,1) 100%);
+}
+.h1-colour{
+    color:#6366F1;
+}
+.search-container{
+    display: flex;
+    // justify-content: center;
+    // align-items: center;
+    margin-top: 20px;
+    
+}
+.search-box{
+    padding: 10px;
+    width: 180px;
+    border: 1px;
+    opacity: 20%;
+    background: #B4B7C9;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius:8px;
+    border-style: solid;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+    
+
+
+
+.category-select{
+    padding: 10px;
+    width: 180px;
+    border: 1px;
+    background: #B4B7C9;
+    opacity: 20%;
+    margin-right: 5px;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    border-style: solid;
+    font-size: 16px;
+    font-weight: 400;
+}
+.search-button{
+    background: #6366F1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+    width: 52px;
+
+}
+.users{
+    margin-top:8rem;
+}
+    
+
+.container-hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    margin-left: 7rem;
+}
+.sidebar a {
+    display: block;
+    padding: 10px;
+    margin: 5px;
+    background: #EFF2FC;
+    text-decoration: none;
+    color: #0B0F19;
+    border-radius: 5px;
+}
+.sidebar a.active {
+    background: #b4b5f3;
+    color: white;
+}
+.sidebar a:hover {
+    background: #6ea7ee;
+}
+.course-container{
+    display: flex;
+}
+.course-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 250px;
+    margin: 2rem;
+}
+.course-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+.section-career{
+    background: #dce2f5;
+
+}
+.form-section {
+    flex: 1;
+    padding: 20px;
+    h2 {
+        font-size: 22px;
+    }
+}
